@@ -9,7 +9,6 @@ public class DestroyInTrigger : MonoBehaviour {
 		if (col.tag == ("EdgeBox") || col.tag == ("Pathmaker")) {
 			pleaseDestroy = true;
 		}
-		Destroy (col);
 	}
 	void OnTriggerStay(Collider col) {
 		if (col.tag == ("EdgeBox") || col.tag == ("Pathmaker")) {
